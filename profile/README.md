@@ -1,111 +1,106 @@
 <div align="center">
 
-[![Release](https://img.shields.io/github/release/taubyte/tau.svg?color=blue)](https://github.com/taubyte/tau/releases)
-[![License](https://img.shields.io/github/license/taubyte/tau?color=blue)](LICENSE)
 [![Discord](https://img.shields.io/discord/973677117722202152?color=%235865f2&label=discord)](https://discord.gg/KbN3KN7kpQ)
+[![X (formerly Twitter) URL](https://img.shields.io/twitter/url?url=https%3A%2F%2Fx.com%2Fdtaubyte)](https://x.com/dtaubyte)
+[![GitHub Repo stars](https://img.shields.io/github/stars/taubyte/tau)](https://github.com/taubyte/tau)
 
 </div>
 
 <div align="center">
-  <img src="profile/images/banner.png" width="100%">
+  <img src="images/banner1.png" width="100%">
 </div>
+
+<br/>
 
 <div align="center">
-
-# 🚀 Taubyte
-
-**An Open Source Cloud Platform on Autopilot**
-
-_Where coding in your local environment equals scaling to global production_
-
+  <a href="https://taubyte.com/doc"><img src="images/documentation.png" width="32%"></a>
+  <a href="https://discord.gg/KbN3KN7kpQ"><img src="images/discord.png" width="32%"></a>
+  <a href="https://taubyte.com/book-a-demo"><img src="images/demo.png" width="32%"></a>
 </div>
 
-## What is Tau?
+<br/>
 
-**Tau** is an open-source, Git-native platform-as-a-service that lets you build, deploy, and scale applications with the simplicity of Vercel, the power of Cloudflare, and the freedom of self-hosting—all in a single binary.
+Taubyte is the company behind **Tau**, an open-source, Git-native platform-as-a-service for building, deploying, and scaling applications. Infrastructure is defined in Git, eliminating API calls. Fully self-hosted with capabilities similar to Vercel, Netlify, and Cloudflare, plus built-in AI features.
 
-### ✨ The Magic
+---
 
-- **📝 Git-Native** - Infrastructure defined in Git. No API calls. Just commit and deploy.
-- **🏠 Local = Production** - Your local environment mirrors production. No surprises.
-- **⚡ Single Binary** - One executable, zero dependencies. Deploy anywhere.
-- **🤖 Built-in AI** - AI-powered features included out of the box.
-- **🌐 Fully Self-Hosted** - Own your infrastructure. No vendor lock-in.
+## Our Projects
 
-### 🎯 Perfect For
+| Project | Description |
+|---------|-------------|
+| [tau](https://github.com/taubyte/tau) | Build your own Cloud Computing Platform - single binary, zero dependencies |
+| [orbit](https://github.com/taubyte/vm-orbit) | Extend capabilities to AI and more with the plugin system |
+| [dreamland](https://github.com/taubyte/dreamland) | Local development environment that mirrors production |
+| [spore-drive](https://github.com/taubyte/spore-drive) | Automated deployment tool for Tau infrastructure |
+| [libdream](https://github.com/taubyte/tau/tree/main/libdream) | Write E2E unit tests with the Dream framework |
 
-- Developers who want infrastructure that "just works"
-- Teams building serverless functions, websites, and APIs
-- Organizations seeking alternatives to traditional cloud providers
-- Anyone who believes infrastructure should live in Git
+---
 
-## Quick Links
+## Production Deployment
+
+### Spore Drive
+
+Deploy Tau to your infrastructure with a single command. Provide the Tau binary, a hosts file with server IPs and credentials (passwords or SSH keys), and optional domain provider configuration. Spore Drive handles the rest, creating your personal Taubyte cloud.
 
 <div align="center">
-
-[📚 Documentation](https://taubyte.com/doc) • [💬 Discord](https://discord.gg/KbN3KN7kpQ) • [⭐ Star on GitHub](https://github.com/taubyte/tau) • [📖 Learn More](https://tau.how)
-
+  <img src="images/spore-drive.png" width="80%">
 </div>
 
-## The Taubyte Ecosystem
+---
+
+## Developer Workflow
+
+### Dream CLI
+
+Create a local cloud environment, manage it through the web console, push your code, trigger builds, and preview your resources - all from the terminal.
 
 <div align="center">
-
-| Project                                                           | Description                                |
-| ----------------------------------------------------------------- | ------------------------------------------ |
-| **[tau](https://github.com/taubyte/tau)**                         | The core platform - your self-hosted cloud |
-| **[orbit](https://github.com/taubyte/vm-orbit)**                  | Extend capabilities with AI and more       |
-| **[dreamland](https://github.com/taubyte/dreamland)**             | Code and test locally with Dream           |
-| **[libdream](https://github.com/taubyte/tau/tree/main/libdream)** | Write E2E tests for your applications      |
-
+  <img src="images/dreamCli.png" width="80%">
 </div>
 
-## Get Started
+<br/>
 
-```bash
-# Install Tau
-curl https://get.tau.link/tau | sh
+### Dream Desktop
 
-# Configure your cloud
-tau config generate -n yourdomain.com -s compute --services all
+The same powerful workflow, now with a graphical interface. Build, preview, and deploy without leaving your desktop.
 
-# Launch
-tau start -s compute
-```
+<div align="center">
+  <img src="images/dreamDesktop.png" width="80%">
+</div>
 
-**That's it. You're running your own cloud.** ☁️
+---
 
-## Features at a Glance
+## Resources
 
-- ✅ **Serverless Functions** - WebAssembly runtime (Rust, Go, AssemblyScript)
-- ✅ **Web Hosting** - Deploy websites and SPAs with automatic routing
-- ✅ **Databases** - Key-value store with encryption
-- ✅ **Storage** - IPFS-backed object storage with versioning
-- ✅ **Messaging** - Real-time pub/sub via MQTT and WebSocket
-- ✅ **P2P Networking** - Automatic discovery and self-healing
-- ✅ **Auto TLS/SSL** - Automatic certificate provisioning
-- ✅ **CI/CD Pipeline** - Automatic builds on commit/push
+**Documentation** - Learn how to use Taubyte at [taubyte.com/doc](https://taubyte.com/doc)
+
+**Technical Blog** - Read our engineering insights at [taubyte.com/blog](https://taubyte.com/blog/)
+
+**Video Tutorials** - Fast-paced [Hitchhiker's Guide to Taubyte](https://www.youtube.com/playlist?list=PLLKNB3tJrL9Y4nl0JnBhU2wHS4iWldUfh) series
+
+---
 
 ## Contributing
 
-We welcome contributions! Whether you're fixing bugs, adding features, improving docs, or helping with community support—every contribution matters.
+Tau thrives with your help. Fix bugs, add features, improve docs, or guide the community.
 
-- 📖 Read our [contribution guidelines](https://github.com/taubyte/tau/blob/main/CONTRIBUTING.md)
-- 🤝 Follow our [code of conduct](https://github.com/taubyte/tau/blob/main/CODE_OF_CONDUCT.md)
-- 🐛 Look for issues labeled `good first issue` to get started
+**How to contribute**
+- Fork, branch from `main`, make changes, test, submit a PR
+- Keep commits focused and describe **what** and **why** clearly
+- New here? Look for `good first issue`
+
+Read our [Code of Conduct](https://github.com/taubyte/tau/blob/main/CODE_OF_CONDUCT.md) and [Contribution Guidelines](https://github.com/taubyte/tau/blob/main/CONTRIBUTING.md)
+
+---
 
 ## Connect
 
+Follow, watch, and chat with us:
+
+X: [@dtaubyte](https://x.com/dtaubyte) | Instagram: [@dtaubyte](https://instagram.com/dtaubyte) | YouTube: [Taubyte](https://youtube.com/@taubyte) | Discord: [Join](https://discord.gg/KbN3KN7kpQ)
+
+<br/>
+
 <div align="center">
-
-[📸 Instagram](https://instagram.com/dtaubyte) • [🐦 X (Twitter)](https://x.com/dtaubyte) • [🎥 YouTube](https://youtube.com/@taubyte) • [💬 Discord](https://discord.gg/KbN3KN7kpQ) • [📚 Docs](https://taubyte.com/doc)
-
-</div>
-
-<div align="center">
-
-**Built with ❤️ by the Taubyte team**
-
-_Star us on [GitHub](https://github.com/taubyte/tau) if you find Tau useful_
-
+  <sub>Built by the Taubyte team</sub>
 </div>
