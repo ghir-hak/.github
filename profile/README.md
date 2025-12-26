@@ -1,13 +1,38 @@
 <div align="center">
 
-[![Discord](https://img.shields.io/discord/973677117722202152?color=%235865f2&label=discord)](https://discord.gg/KbN3KN7kpQ)
-[![X (formerly Twitter) URL](https://img.shields.io/twitter/url?url=https%3A%2F%2Fx.com%2Fdtaubyte)](https://x.com/dtaubyte)
-[![GitHub Repo stars](https://img.shields.io/github/stars/taubyte/tau)](https://github.com/taubyte/tau)
+<a href="https://taubyte.com" target="_blank">
+    <img alt="Product" src="https://img.shields.io/badge/Product-Taubyte-2563eb">
+</a>
+
+<a href="https://taubyte.com/pricing" target="_blank">
+    <img alt="Pricing" src="https://img.shields.io/badge/pricing-free-22c55e">
+</a>
+
+<a href="https://discord.gg/KbN3KN7kpQ" target="_blank">
+    <img alt="Discord" src="https://img.shields.io/discord/973677117722202152?color=%235865f2&label=discord&logo=discord">
+</a>
+
+<a href="https://x.com/dtaubyte" target="_blank">
+    <img alt="X (Twitter)" src="https://img.shields.io/twitter/url?url=https%3A%2F%2Fx.com%2Fdtaubyte&logo=X">
+</a>
+
+<a href="https://instagram.com/dtaubyte" target="_blank">
+    <img alt="Instagram" src="https://img.shields.io/badge/Instagram-@dtaubyte-E4405F?logo=instagram&logoColor=white">
+</a>
+
+<a href="https://www.linkedin.com/company/taubyte-page" target="_blank">
+    <img alt="LinkedIn" src="https://custom-icon-badges.demolab.com/badge/LinkedIn-Taubyte-0A66C2?logo=linkedin-white&logoColor=fff">
+</a>
+
+<a href="https://github.com/taubyte/tau" target="_blank">
+    <img alt="GitHub stars" src="https://img.shields.io/github/stars/taubyte/tau">
+</a>
 
 </div>
+<br/>
 
 <div align="center">
-  <img src="images/banner1.png" width="100%">
+  <img width="3408" height="548" alt="banner" src="https://github.com/user-attachments/assets/6c4c81aa-43c2-4854-b8ef-d040b54c213a" />
 </div>
 
 <div align="center">
@@ -28,15 +53,13 @@ Taubyte is the company behind **Tau**, an open-source, Git-native platform-as-a-
 
 ### Develop
 
-- [dreamland](https://github.com/taubyte/dreamland) - Local environment that mirrors production. Code locally, scale globally.
-
-- [libdream](https://github.com/taubyte/tau/tree/main/libdream) - E2E testing framework to validate your application before deployment.
+- [Dream](https://github.com/taubyte/tau/tree/main/dream) - Local environment that mirrors production. Code locally, scale globally.
 
 ### Build
 
-- [tau](https://github.com/taubyte/tau) - Cloud platform in a single binary. Run serverless functions, host websites, manage databases, storage, and messaging.
+- [Tau](https://github.com/taubyte/tau) - Cloud platform in a single binary. Run serverless functions, host websites, manage databases, storage, and messaging.
 
-- [orbit](https://github.com/taubyte/vm-orbit) - Plugin system to extend Tau with AI models and custom integrations.
+- [Vm-Orbit](https://github.com/taubyte/tau/tree/main/pkg/vm-orbit) - Plugin system to extend Tau with AI models and custom integrations.
 
 ---
 
