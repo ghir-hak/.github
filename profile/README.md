@@ -4,20 +4,12 @@
     <img alt="Product" src="https://img.shields.io/badge/Product-Taubyte-2563eb">
 </a>
 
-<a href="https://taubyte.com/pricing" target="_blank">
-    <img alt="Pricing" src="https://img.shields.io/badge/pricing-free-22c55e">
-</a>
-
 <a href="https://discord.gg/KbN3KN7kpQ" target="_blank">
     <img alt="Discord" src="https://img.shields.io/discord/973677117722202152?color=%235865f2&label=discord&logo=discord">
 </a>
 
 <a href="https://x.com/dtaubyte" target="_blank">
     <img alt="X (Twitter)" src="https://img.shields.io/twitter/url?url=https%3A%2F%2Fx.com%2Fdtaubyte&logo=X">
-</a>
-
-<a href="https://instagram.com/dtaubyte" target="_blank">
-    <img alt="Instagram" src="https://img.shields.io/badge/Instagram-@dtaubyte-E4405F?logo=instagram&logoColor=white">
 </a>
 
 <a href="https://www.linkedin.com/company/taubyte-page" target="_blank">
@@ -45,23 +37,18 @@
 
 Taubyte is the company behind **Tau**, an open-source, Git-native platform-as-a-service for building, deploying, and scaling applications. Fully self-hosted with capabilities similar to Vercel, Netlify, and Cloudflare, plus built-in AI readiness.
 
----
-### Deploy
+
+
 
 - [spore-drive](https://github.com/taubyte/spore-drive) - Provide servers and credentials, Spore Drive creates your personal cloud.
 
-
-### Develop
-
 - [Dream](https://github.com/taubyte/tau/tree/main/dream) - Local environment that mirrors production. Code locally, scale globally.
-
-### Build
 
 - [Tau](https://github.com/taubyte/tau) - Cloud platform in a single binary. Run serverless functions, host websites, manage databases, storage, and messaging.
 
 - [Vm-Orbit](https://github.com/taubyte/tau/tree/main/pkg/vm-orbit) - Plugin system to extend Tau with AI models and custom integrations.
 
----
+
 
 ### Resources
 
