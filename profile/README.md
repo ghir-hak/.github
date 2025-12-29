@@ -35,7 +35,7 @@
 
 <br/>
 
-Taubyte is the company behind **Tau**, an open-source, Git-native platform-as-a-service for building, deploying, and scaling applications. Fully self-hosted with capabilities similar to Vercel, Netlify, and Cloudflare, plus built-in AI readiness.
+Taubyte is the company behind **Tau**, an open-source, Git-native platform-as-a-service for building, deploying, and scaling applications. Fully self-hosted with capabilities similar to Vercel, Firebase, and Cloudflare, plus built-in AI readiness.
 
 
 
@@ -46,7 +46,7 @@ Taubyte is the company behind **Tau**, an open-source, Git-native platform-as-a-
 
 - [Tau](https://github.com/taubyte/tau) - Cloud platform in a single binary. Run serverless functions, host websites, manage databases, storage, and messaging.
 
-- [Vm-Orbit](https://github.com/taubyte/tau/tree/main/pkg/vm-orbit) - Plugin system to extend Tau with AI models and custom integrations.
+- [Orbit](https://github.com/taubyte/tau/tree/main/pkg/vm-orbit) - Plugin system to extend Tau with AI infrence and custom integrations.
 
 
 
